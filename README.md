@@ -3,7 +3,9 @@
 
 A Telegram bot built using NestJs to give daily weather updates
 
+## Usage
 
+Find the bot at @ac_weather_bot on Telegram
 
 ## Installation
 
