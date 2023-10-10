@@ -8,7 +8,7 @@ export const setupWeatherCron = (
   userService: UserService,
 ) => {
   cron.schedule(
-    '20 18 * * *', //note: change to 0 8 * * *
+    '0 8 * * *',
     async () => {
       const subscribers = await userService.findAll();
       for (const subscriber of subscribers) {
